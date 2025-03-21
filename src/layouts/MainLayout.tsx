@@ -14,7 +14,7 @@ const MainLayout = ({ children }: MainLayoutProps) => {
       className={cn(
         "min-h-screen flex flex-col relative overflow-hidden",
         "bg-yoga-bg bg-cover bg-center bg-fixed bg-no-repeat",
-        "before:content-[''] before:absolute before:inset-0 before:bg-white/10 dark:before:bg-black/50 before:backdrop-blur-sm"
+        "before:content-[''] before:absolute before:inset-0 before:bg-white/20 dark:before:bg-black/60 before:backdrop-blur-sm"
       )}
     >
       <ThemeToggle />

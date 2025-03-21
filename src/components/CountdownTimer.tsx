@@ -50,12 +50,12 @@ const CountdownTimer = () => {
     <div 
       className={cn(
         "countdown-card flex flex-col items-center justify-center p-4 sm:p-6",
-        "w-16 h-16 sm:w-24 sm:h-24 mx-2 sm:mx-3",
-        "min-w-[4rem] sm:min-w-[6rem]", // Fixed minimum width to prevent flickering
+        "w-20 h-20 sm:w-24 sm:h-24 mx-2 sm:mx-3",
+        "min-w-[5rem] sm:min-w-[6rem]", 
         "animate-fade-in"
       )}
     >
-      <span className="text-yoga-purple font-bold text-2xl sm:text-4xl tabular-nums">
+      <span className="text-yoga-purple font-bold text-2xl sm:text-4xl font-mono tabular-nums">
         {value.toString().padStart(2, '0')}
       </span>
       <span className="text-gray-600 dark:text-gray-300 text-xs sm:text-sm mt-1">

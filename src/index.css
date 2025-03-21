@@ -17,8 +17,8 @@
     --secondary-foreground: 240 5.9% 10%;
     --muted: 240 4.8% 95.9%;
     --muted-foreground: 240 3.8% 46.1%;
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
+    --accent: 252 56% 63%;
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 240 5.9% 90%;
@@ -40,7 +40,7 @@
     --secondary-foreground: 0 0% 98%;
     --muted: 240 3.7% 15.9%;
     --muted-foreground: 240 5% 64.9%;
-    --accent: 240 3.7% 15.9%;
+    --accent: 252 56% 65%;
     --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
@@ -60,15 +60,15 @@
   }
   
   .countdown-card {
-    @apply bg-white/90 dark:bg-slate-900/90 backdrop-blur-md rounded-2xl border border-white/20 dark:border-white/10 shadow-lg transition-all duration-300 ease-in-out;
+    @apply bg-white/90 dark:bg-slate-800/90 backdrop-blur-md rounded-2xl border border-yoga-purple/20 dark:border-yoga-purple/30 shadow-lg transition-all duration-300 ease-in-out;
   }
   
   .glass-input {
-    @apply bg-white/70 dark:bg-slate-800/70 backdrop-blur-md border border-white/20 dark:border-white/10 shadow-sm transition-all duration-300 ease-in-out;
+    @apply bg-white/70 dark:bg-slate-800/70 backdrop-blur-md border border-white/20 dark:border-yoga-purple/30 shadow-sm transition-all duration-300 ease-in-out;
   }
   
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-purple-400 to-purple-600;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-yoga-purple via-yoga-purple/90 to-yoga-purple/80;
   }
 }
 
