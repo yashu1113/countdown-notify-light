@@ -55,7 +55,7 @@ const CountdownTimer = () => {
         "animate-fade-in"
       )}
     >
-      <span className="text-yoga-purple font-bold text-2xl sm:text-4xl">
+      <span className="text-yoga-purple font-bold text-2xl sm:text-4xl tabular-nums">
         {value.toString().padStart(2, '0')}
       </span>
       <span className="text-gray-600 dark:text-gray-300 text-xs sm:text-sm mt-1">

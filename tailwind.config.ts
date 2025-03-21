@@ -104,7 +104,7 @@ export default {
 				'float': 'float 6s infinite ease-in-out',
 			},
 			backgroundImage: {
-				'yoga-bg': "url('/lovable-uploads/009294ce-a9b4-458f-90c3-8ea8d0a559c6.png')",
+				'yoga-bg': "url('https://images.unsplash.com/photo-1593810450967-f9c42742e326?q=80&w=2070&auto=format&fit=crop')",
 			},
 		}
 	},
