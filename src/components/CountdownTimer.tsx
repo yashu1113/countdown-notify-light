@@ -51,6 +51,7 @@ const CountdownTimer = () => {
       className={cn(
         "countdown-card flex flex-col items-center justify-center p-4 sm:p-6",
         "w-16 h-16 sm:w-24 sm:h-24 mx-2 sm:mx-3",
+        "min-w-[4rem] sm:min-w-[6rem]", // Fixed minimum width to prevent flickering
         "animate-fade-in"
       )}
     >
